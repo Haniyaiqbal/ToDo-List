@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-mongoose.connect('mongodb+srv://haniyaiqbal:Hi0708@cluster0.bfqe14f.mongodb.net/todolistDB', { useNewUrlParser: true });
+mongoose.connect('mongodb://127.0.0.1:27017', { useNewUrlParser: true });
 
 const itemsSchema = {
   name: String
@@ -141,5 +141,3 @@ app.listen(4000, function() {
 
 
 
-
-//"mongodb+srv://cluster0.bfqe14f.mongodb.net/" --apiVersion 1 --username haniyaiqbal
