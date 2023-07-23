@@ -28,7 +28,7 @@ Usage:
 
 Customization:
 
-Modify EJS templates (list.ejs, header.ejs, footer.ejs) and CSS (styles.css) to customize the Todolist's appearance.
+Feel free to modify EJS templates (list.ejs, header.ejs, footer.ejs) and CSS (styles.css) to customize the Todolist's appearance.
 
 Author: Developed with ❤️ by Haniya.
 
